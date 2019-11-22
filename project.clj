@@ -11,4 +11,6 @@
   {:dev {:dependencies [[javax.servlet/servlet-api "2.5"]
                         [ring/ring-mock "0.3.2"]
                         [ring/ring-json "0.3.1"]
-                        [http.async.client "1.3.1"]]}})
+                        [http.async.client "1.3.1"]
+                        [stasis "1.0.0"]
+                        [hiccup "1.0.5"]]}})

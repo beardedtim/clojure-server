@@ -10,7 +10,7 @@
   "
   [url]
   (with-open [client (http/create-client)]
-    (let [response (http/GET client (str "https://" url))]
+    (let [response (http/GET client (str "http://" url))]
       (-> response
           http/await
           http/string))))
